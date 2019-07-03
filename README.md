@@ -1,5 +1,8 @@
-# Android-4.4-Kitkat
-GTK theme based on the last Android before material design
+[![built-with-azurra-framework](https://github.com/Elbullazul/Azurra_framework/raw/assets/azurra_framework_smaller.png)](https://github.com/Elbullazul/Azurra_framework)
+
+# Android 4.4 Kitkat
+
+GTK theme based on based on the Holographic theme, the last Android theme before material design
 
 ![android-kitkat](https://github.com/B00merang-Project/gallery/raw/master/Android%204.4%20Kitkat%20(3).png)
 
