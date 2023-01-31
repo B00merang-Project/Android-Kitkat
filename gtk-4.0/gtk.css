@@ -82,16 +82,17 @@ label > selection {
   color: #FFFFFF;
   background-color: #0681AA; }
   label > selection:focus-within {
-    color: #0681AA; }
+    color: #FFFFFF;
+    background-color: #0681AA; }
 
 label:disabled {
   color: #555555; }
   button label:disabled {
     color: inherit; }
   > selection label:disabled {
-    color: #437c90; }
+    color: #2d6b7f; }
     > selection label:disabled:backdrop {
-      color: #568ea3; }
+      color: #407d92; }
 
 label.error {
   color: #CC0000; }
@@ -574,7 +575,7 @@ searchbar {
   border-width: 0 0 1px 0;
   border-style: solid;
   border-color: #CECECE;
-  background-color: #F2F2F2; }
+  background-color: #e6e6e6; }
 
 .nautilus-window .searchbar-container {
   margin-top: -1px; }
@@ -939,21 +940,20 @@ menubar, .menubar {
   menubar:backdrop, .menubar:backdrop {
     color: #000000;
     background-color: #F2F2F2; }
-
-menubar > menuitem, .menubar > menuitem {
-  padding: 3px 5px;
-  border: none;
-  color: #000000;
-  background-color: transparent; }
-  menubar > menuitem:hover, .menubar > menuitem:hover {
-    color: #FFFFFF;
-    background-color: #32A3CC; }
-  menubar > menuitem:disabled, .menubar > menuitem:disabled {
-    color: #555555;
-    background-color: transparent; }
-  menubar > menuitem:backdrop, .menubar > menuitem:backdrop {
+  menubar > menuitem, .menubar > menuitem {
+    padding: 3px 5px;
+    border: none;
     color: #000000;
     background-color: transparent; }
+    menubar > menuitem:hover, .menubar > menuitem:hover {
+      color: #FFFFFF;
+      background-color: #32A3CC; }
+    menubar > menuitem:disabled, .menubar > menuitem:disabled {
+      color: #555555;
+      background-color: transparent; }
+    menubar > menuitem:backdrop, .menubar > menuitem:backdrop {
+      color: #000000;
+      background-color: transparent; }
 
 notebook {
   padding: 0; }
@@ -1444,8 +1444,7 @@ window.dialog.print drawing {
 window.dialog.print .dialog-action-box {
   margin: 12px; }
 
-frame,
-.frame {
+frame, .frame {
   border: 1px solid #CECECE; }
 
 frame {
