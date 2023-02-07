@@ -10,6 +10,7 @@ GTK theme based on based on the Holographic theme, the last Android theme before
 - Any GTK-based desktop
 - Cinnamon
 - Gnome
+- MATE
 
 ### Manual installation
 Go to releases, download the latest `.zip` file and extract it to the themes directory i.e. `/home/USERNAME/.themes`
